@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lieferando</title>
+    <link rel="icon" href="img/restaurant.ico">
+    <link rel="stylesheet" href="fonts.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body onload="render()">
+    <div class="header">
+        <div class="header-logo">
+            <img src="img/lieferando.ico">
+            <h1>Lieferando.de</h1>
+        </div>
+
+        <div class="menu-button">
+            <img src="img/menu.ico" onclick="toggleMenu()">
+            <div id="menu" class="nav-container">
+
+            </div>
+        </div>
+    </div>
+
+    <div class="main-section" id="main-section">
+
+        <div class="menu-section" id="menu-section">
+            <img src="img/cover_image.jpg">
+            <div id="order-section"></div>
+        </div>
+
+        <div class="basket-section" id="shopping-basket-section">
+            <div class="headline-basket"><b>Warenkorb</b></div>
+            <div id="shopping-basket-container"></div>
+            <div class="price-section" id="price-container"></div>
+        </div>
+
+    </div>
+</body>
+
+</html>
